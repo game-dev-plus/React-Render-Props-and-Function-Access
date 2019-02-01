@@ -66,3 +66,22 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+### Files :
+
+1. App.js : 
+<br>
+Entry point for the application. `Parent` component illustrates the use of render props using `BigBrother`, `LittleSister`, `LittleBrother` components.
+`Person` components illustrates passing function from parent component to child component and calling it through child component.
+<br>
+<br>
+2. Parent.js : Renders `BigBrother`, `LittleSister`, `LittleBrother` components.
+<br>
+<br>
+3. BigBrother.js : Handles mouse move and reflects that changes in the state. 
+<br>
+<br>
+4. LittleSister.js and LittleBrother.js : Access states in `BigBrother` component and reflects changes accordingly.
+<br>
+<br>
+5. Person.js : Calls increment function in the parent ie. `App.js`. 

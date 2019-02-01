@@ -1,0 +1,41 @@
+.name{
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    margin-right: 10px;
+}
+
+.count{
+    font-size: 100px;
+    color: blue;
+    font-display: block;
+    font-weight: bold;
+    text-align: center
+}
+.btn{
+    width: 50%;
+    font-display: block;
+}
+.div-border{
+    border: 1px solid black;
+    padding: 5px;
+    width: 40%;
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+    overflow: hidden; /* required for ribbon*/
+    position: relative; /* required  for ribbon*/
+}
+.corner-ribbon{
+  width: 200px;
+  background: #e43;
+  position: absolute;
+  top: 25px;
+  left: -50px;
+  text-align: center;
+  line-height: 50px;
+  letter-spacing: 1px;
+  color: #f0f0f0;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
